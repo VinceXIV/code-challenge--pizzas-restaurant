@@ -23,5 +23,5 @@ end
 
 puts "creating restaurant-pizzas"
 10.times do
-    RestaurantPizza.create(price: rand(0..30), pizza_id: pizzas.sample.id, restaurant_id: restaurants.sample.id)
+    RestaurantPizza.create(price: rand(2..29), pizza_id: pizzas.sample.id, restaurant_id: restaurants.sample.id)
 end
